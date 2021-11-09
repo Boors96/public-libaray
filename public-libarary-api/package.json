@@ -1,0 +1,43 @@
+{
+  "name": "public-libarary-api",
+  "version": "1.0.0",
+  "description": "public libarary project api",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mui-datatables": "^3.7.8",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-promise": "^2.0.0",
+    "nodemon": "^2.0.14",
+    "pg-hstore": "^2.3.4",
+    "radium": "^0.26.1",
+    "request": "^2.88.2",
+    "semver": "^7.3.5",
+    "sequelize": "^6.6.5",
+    "simplebar-react": "^2.3.4",
+    "underscore": "^1.13.1",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/request": "^2.48.7",
+    "@types/uuid": "^8.3.1",
+    "chai": "^4.3.4",
+    "joi": "^17.4.2",
+    "mocha": "^9.1.1"
+  },
+  "scripts": {
+    "dev": "nodemon server/index.js",
+    "test": "mocha"
+  },
+  "author": "Mohammed Aba Salih",
+  "license": "ISC"
+}
